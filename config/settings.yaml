@@ -1,0 +1,13 @@
+twitter_user_list:
+  - "fomosaurus"
+  - "chatwithcharles"
+  - "CryptoSpider1"
+  - "CryptoGrills"
+telegram_user_list:
+  - -504043770
+twitter_api_key: "Vd3ZCvRTWerxcnTDrLAM0hmFX"
+twitter_api_key_secret: "7IhmD5d8y1ed8MLzzNmnBLsEn69aJ5hsQJpMgYFktOCo662GfM"
+twitter_access_token: "702469992932098048-NEaYe4TIF8EEpzQyQwq3xmXE31taYAW"
+twitter_access_token_secret: "mBNfiIRDZkyNChUCMrsoF8ig13AWyYMZ3ZPPcY4fWlJFj"
+telegram_token: ""
+loop_time: 900
