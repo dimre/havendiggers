@@ -4,7 +4,7 @@ import os
 from telegram import BotCommand
 from telegram.ext import CommandHandler, Dispatcher, Updater
 
-from modules.commands import help_cmd, start_cmd, list_cmd, count_cmd
+from modules.commands import help_cmd, start_cmd, list_cmd, count_cmd, remove_cmd
 from modules.data import config_map
 from modules.jobs import update_following
 
@@ -23,6 +23,7 @@ def add_commands(up: Updater):
         BotCommand("help ", "help message and list of commands"),
         BotCommand("list ", "shows who the specified user is following"),
         BotCommand("count ", "shows how many users each user follows"),
+        BotCommand("remove ", "removes all database records of the specified user"),
     ]
     up.bot.set_my_commands(commands=commands)
 
@@ -41,6 +42,7 @@ def add_handlers(dp: Dispatcher):
     dp.add_handler(CommandHandler("help", help_cmd))
     dp.add_handler(CommandHandler("list", list_cmd))
     dp.add_handler(CommandHandler("count", count_cmd))
+    dp.add_handler(CommandHandler("remove", remove_cmd))
 
 
 def add_jobs(dp: Dispatcher):
