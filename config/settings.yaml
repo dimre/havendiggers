@@ -1,17 +1,15 @@
 twitter_user_list:
   - "fomosaurus"
-  - "chatwithcharles"
   - "CryptoGrills"
-  - "N2ckchong"
   - "Darrenlautf"
   - "Cryptoyieldinfo"
   - "smallcapscience"
   - "cryptodetweiler"
   - "notEezzy"
   - "HsakaTrades"
-  - "CryptoMaestro"
   - "blknoiz06"
   - "dcfgod"
+  - "Rewkang"
 telegram_user_list:
   - -504043770
 twitter_api_key: ""
