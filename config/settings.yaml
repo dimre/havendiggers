@@ -2,7 +2,6 @@ twitter_user_list:
   - "fomosaurus"
   - "CryptoGrills"
   - "Darrenlautf"
-  - "Cryptoyieldinfo"
   - "smallcapscience"
   - "cryptodetweiler"
   - "notEezzy"
@@ -10,8 +9,7 @@ twitter_user_list:
   - "dcfgod"
   - "Rewkang"
   - "nosleepjon"
-  - "bryptokenneth33"
-  - "@thegreenbutton_"
+  - "thegreenbutton_"
 telegram_user_list:
   - -504043770
 twitter_api_key: ""
